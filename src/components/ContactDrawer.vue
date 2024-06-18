@@ -71,7 +71,7 @@
                         </a>
                         <a target="_blank"
                             href="https://wa.me/523314857062?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20tus%20servicios."
-                            class="text-white hover:border hover:bg-blue-800 rounded-full">
+                            class="text-white hover:border hover:bg-green-600 rounded-full">
                             <mdiWhatsapp class="h-10 w-10"></mdiWhatsapp>
                         </a>
                         <a target="_blank"
