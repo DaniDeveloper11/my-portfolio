@@ -17,7 +17,7 @@
         <div class="hidden lg:flex lg:gap-x-8 lg:w-3/5 lg:place-content-end ">
           <!-- <RouterLink v-for="item in navigation" :key="item.name" :to="item.to" class="text-md font-semibold leading-6 text-white">{{ item.name }}</RouterLink> -->
           <button type="text" v-on:click="contactOpen = true" class=" bg-transparent hover:bg-teal-600 outline text-md font-semibold leading-6 text-white m-0 p-1">Contact me</button>
-          <a :href="pdfUrl" download="summary.pdf" class=" bg-transparent hover:bg-teal-600 outline text-md font-semibold leading-6 text-white m-0 p-1">Download Summary</a>
+          <a :href="pdfUrl" download="summary.pdf" class=" bg-transparent hover:bg-teal-600 outline text-md font-semibold leading-6 text-white m-0 p-1">Download Resume</a>
         </div>
       </nav>
       <Dialog class="lg:hidden" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -37,7 +37,7 @@
             <div class="-my-6 divide-y divide-gray-500/25">
               <div class="space-y-2 py-6">
                 <a v-on:click="contactOpen = true" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Contact me</a>
-                <a :href="pdfUrl" download="summary.pdf" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Download Summary</a>
+                <a :href="pdfUrl" download="summary.pdf" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Download Resume</a>
 
               </div>
               <!-- <div class="py-6">
