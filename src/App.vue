@@ -63,7 +63,7 @@ import { RouterLink, RouterView } from 'vue-router'
 // import FMenu from '@/components/FlayoutMenu.vue'
 // import FMenu2 from '@/components/FlayoutMenu2.vue'
 import DrawerContact from '@/components/ContactDrawer.vue'
-const pdfUrl = new URL('@/assets/summary.pdf', import.meta.url).href
+const pdfUrl = new URL('@/assets/Daniel-Montes-Summary.pdf', import.meta.url).href
 
 const navigation = [
   // { name: 'Home', to:'/' },
