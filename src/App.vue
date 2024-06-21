@@ -37,7 +37,7 @@
             <div class="-my-6 divide-y divide-gray-500/25">
               <div class="space-y-2 py-6">
                 <a v-on:click="contactOpen = true" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Contact me</a>
-                <a :href="pdfUrl" download="summary.pdf" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Download Resume</a>
+                <a :href="pdfUrl" download="resume.pdf" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-800">Download Resume</a>
 
               </div>
               <!-- <div class="py-6">
@@ -63,7 +63,7 @@ import { RouterLink, RouterView } from 'vue-router'
 // import FMenu from '@/components/FlayoutMenu.vue'
 // import FMenu2 from '@/components/FlayoutMenu2.vue'
 import DrawerContact from '@/components/ContactDrawer.vue'
-const pdfUrl = new URL('@/assets/Daniel-Montes-Summary.pdf', import.meta.url).href
+const pdfUrl = new URL('@/assets/Daniel-Montes-resume.pdf', import.meta.url).href
 
 const navigation = [
   // { name: 'Home', to:'/' },
