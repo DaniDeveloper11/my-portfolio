@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base: 'https://DaniDeveloper11.github.io/my-portfolio',
+  base: 'https://DaniDeveloper11.github.io/my-portfolio/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

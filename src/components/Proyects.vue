@@ -1,8 +1,8 @@
 <template>
-    <div class="bg-white py-24 sm:py-32">
+    <div class="bg-white py-10 sm:py-0">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center">
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">My proyects </h2>
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Real Proyects </h2>
           <p class="mt-2 text-lg leading-8 text-gray-600">I have worked in software web aplication as fronted and backend developer also I have developed websites to some enteprises..</p>
         </div>
         <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -63,7 +63,7 @@ import Github from './icons/github.vue';
     {
       id: 1,
       title: 'AZULERP',
-      href: '#',
+      href: 'https://github.com/DaniDeveloper11/azulERP-Front.git',
       description:
         'AzulERP is a web aplication to manage all of revenue and expenditure of a tequilera, and it doesnt stop there, also has grafics about intern data..',
       imageUrl:
@@ -74,7 +74,7 @@ import Github from './icons/github.vue';
       author: {
         name: 'DaniDeveloper11',
         role: 'Back-end | Front-end',
-        href: '#',
+        href: 'https://github.com/DaniDeveloper11/azulERP-Front.git',
         imageUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
@@ -89,7 +89,7 @@ import Github from './icons/github.vue';
     {
       id: 2,
       title: 'Lions Protection',
-      href: '#',
+      href: 'https://lionsprotection.com.mx/login',
       description:
         'Lions Proteccion is a web aplication that was developed to have a overview see about a car insurance company',
       imageUrl:
@@ -114,7 +114,7 @@ import Github from './icons/github.vue';
     {
       id: 3,
       title: 'Softcarmel.com',
-      href: '#',
+      href: 'https://softcarmel.com/',
       description:
         'Softcarmel is a website about a software consulting company, their services are develop aplicationes and websites and Im part of it ',
       imageUrl:
@@ -139,7 +139,7 @@ import Github from './icons/github.vue';
     {
       id: 4,
       title: 'Oackland.net',
-      href: '#',
+      href: 'https://www.oakland-net.com/',
       description:
         'Okland.net is a website about one of the most commercial companies in Mexico. The site provides comprehensive information about the companys products and services, showcasing their extensive portfolio and market reach. It also features the latest news, updates, and insights into the companys operations, innovations, and contributions to the industry. ',
       imageUrl:
@@ -150,38 +150,13 @@ import Github from './icons/github.vue';
       author: {
         name: 'DaniDeveloper11',
         role: 'Front-end',
-        href: '#',
+        href: 'https://www.oakland-net.com/',
         imageUrl:
           'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
       },
       tenologies: [
         {name:'Vue.js'},
         {name:'Vuetify'},
-        {name:'vueRouter'},
-        {name:'Javascript'}
-      ]
-    },
-    {
-      id: 5,
-      title: 'This Proyect',
-      href: '#',
-      description:
-        'This is my personal portfolio about web projects, there are some projects that was important to me because they helped me to grow up as web developer',
-      imageUrl:
-        thiss,
-      date: 'June 2024',
-      datetime: '2020-03-16',
-      category: { title: 'Web Site', href: '#' },
-      author: {
-        name: 'DaniDeveloper11',
-        role: 'Front-end',
-        href: 'https://github.com/DaniDeveloper11/my-portfolio',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
-      tenologies: [
-        {name:'Vue.js'},
-        {name:'TailwindCss'},
         {name:'vueRouter'},
         {name:'Javascript'}
       ]
