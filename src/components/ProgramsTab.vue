@@ -114,7 +114,7 @@ import Github from './icons/github.vue';
     title: 'Login and Blog website',
     href: 'https://github.com/DaniDeveloper11/blogLaravel.git',
     description:
-      '"A bllog page with a login, this proyect was deployed "',
+      '"Blog page with a login"',
     imageUrl:
       programa3,
     date: 'May 15 2024',
