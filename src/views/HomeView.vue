@@ -25,7 +25,7 @@ const updateContactOpen = (value) => {
 
 
 
-  <div class="mx-auto max-w-7xl py-24 px-6 lg:px-8 sm:mt-32 ">
+  <div class="mx-auto max-w-7xl py-24 px-6 lg:px-8 sm:mt-10 ">
     <div
       class="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-1 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-6">
       <img class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src="/src/assets/tecnologies/1.png"
