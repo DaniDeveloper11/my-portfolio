@@ -42,6 +42,10 @@
           <!-- Content for Project 3 -->
           <Tab v-bind:post="posts[0]"></Tab>
         </div>
+        <div v-if="selectedTab === 'Project 4'">
+          <!-- Content for Project 3 -->
+          <Tab v-bind:post="posts[3]"></Tab>
+        </div>
         <!-- Add more projects as needed -->
       </div>
     </div>
@@ -57,6 +61,8 @@
 import programa from '@/assets/Programas/1.png'
 import programa2 from '@/assets/Programas/2.png'
 import programa3 from '@/assets/Programas/3.png'
+import programa4 from '@/assets/Programas/4.png'
+
 
 
 import Github from './icons/github.vue';
@@ -68,6 +74,8 @@ import Github from './icons/github.vue';
     { name: 'Project 1' },
     { name: 'Project 2' },
     { name: 'Project 3' },
+    { name: 'Project 4' },
+
     // Add more projects as needed
   ];
   const posts = [
@@ -124,6 +132,25 @@ import Github from './icons/github.vue';
       name: 'DaniDeveloper11',
       role: 'Frontend',
       href: 'https://github.com/DaniDeveloper11/blogLaravel.git',
+      imageUrl:
+        Github,
+    },
+  },
+  {
+    id: 4,
+    title: 'Landing Page to a Hospital',
+    href: 'https://miguelbriseno.github.io/hospitalsanjose.github.io/',
+    description:
+      '"A landing Page to a Hospital about eyes care"',
+    imageUrl:
+      programa4,
+    date: 'May 15 2024',
+    datetime: '2020-03-16',
+    category: { title: 'Landing Page', href: '#' },
+    author: {
+      name: 'DaniDeveloper11',
+      role: 'Frontend',
+      href: 'https://github.com/MiguelBriseno/landing-page-hs.git',
       imageUrl:
         Github,
     },
