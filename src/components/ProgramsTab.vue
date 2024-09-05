@@ -46,6 +46,10 @@
           <!-- Content for Project 3 -->
           <Tab v-bind:post="posts[3]"></Tab>
         </div>
+        <div v-if="selectedTab === 'Project 5'">
+          <!-- Content for Project 3 -->
+          <Tab v-bind:post="posts[4]"></Tab>
+        </div>
         <!-- Add more projects as needed -->
       </div>
     </div>
@@ -62,6 +66,8 @@ import programa from '@/assets/Programas/1.png'
 import programa2 from '@/assets/Programas/2.png'
 import programa3 from '@/assets/Programas/3.png'
 import programa4 from '@/assets/Programas/4.png'
+import programa5 from '@/assets/Programas/5.png'
+
 
 
 
@@ -75,6 +81,8 @@ import Github from './icons/github.vue';
     { name: 'Project 2' },
     { name: 'Project 3' },
     { name: 'Project 4' },
+    { name: 'Project 5' },
+
 
     // Add more projects as needed
   ];
@@ -151,6 +159,25 @@ import Github from './icons/github.vue';
       name: 'DaniDeveloper11',
       role: 'Frontend',
       href: 'https://github.com/MiguelBriseno/landing-page-hs.git',
+      imageUrl:
+        Github,
+    },
+  },
+  {
+    id: 5,
+    title: 'CRUD',
+    href: 'https://danideveloper11.github.io/CRM-VUE/',
+    description:
+      '"A simple CRUD to manage and practise http request with a Json-server librery"',
+    imageUrl:
+      programa5,
+    date: 'May 15 2024',
+    datetime: '2020-03-16',
+    category: { title: 'Web Aplication', href: '#' },
+    author: {
+      name: 'DaniDeveloper11',
+      role: 'Frontend',
+      href: 'hhttps://github.com/DaniDeveloper11/CRM-VUE.git',
       imageUrl:
         Github,
     },

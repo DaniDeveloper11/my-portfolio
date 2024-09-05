@@ -28,6 +28,9 @@
   </template>
   
   <script setup>
+  import miguel from '@/assets/testimonials/1.jpg'
+  import Kenet from '@/assets/testimonials/2.jpg'
+
   const testimonials = [
     {
       body: 'Daniel was into my team and i can say that him is so dedicated in all about his objetives',
@@ -35,7 +38,7 @@
         name: 'Miguel Briseño',
         handle: 'Proyect Manager | Full stack Developer',
         imageUrl:
-          'https://media.licdn.com/dms/image/D5603AQF--wmltO8k7A/profile-displayphoto-shrink_400_400/0/1701178615508?e=1724284800&v=beta&t=6hQ41sqixCkpTofVMyS2bPgUrhOMRVmTMFiS3BtllNA',
+          miguel,
       },
     },
     {
@@ -44,7 +47,7 @@
         name: 'Kenet Gaona',
         handle: 'Full stack Developer',
         imageUrl:
-          'https://media.licdn.com/dms/image/C5603AQHYdDs5ZB-l7Q/profile-displayphoto-shrink_400_400/0/1627609851445?e=1724284800&v=beta&t=bXFNQ__hPuC7T9si4l5fWS4ABOiLX9JQ0JHfEyTtE3Q',
+          Kenet,
       },
     },
     {
