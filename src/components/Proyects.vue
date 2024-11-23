@@ -63,7 +63,7 @@ import Github from './icons/github.vue';
     {
       id: 1,
       title: 'AZULERP',
-      href: 'https://github.com/DaniDeveloper11/azulERP-Front.git',
+      href: 'https://amazing-capybara-41930d.netlify.app/',
       description:
         'AzulERP is a web aplication to manage all of revenue and expenditure of a tequilera, and it doesnt stop there, also has grafics about intern data..',
       imageUrl:
